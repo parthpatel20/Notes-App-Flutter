@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "136541813765",
+    "firebase_url": "https://noteworthy-a4713.firebaseio.com",
+    "project_id": "noteworthy-a4713",
+    "storage_bucket": "noteworthy-a4713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136541813765:android:17573e5274f7449acc706c",
+        "android_client_info": {
+          "package_name": "pathepatel.notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136541813765-1nv05se1nu80dff24bmrquan5rdb30u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pathepatel.notes",
+            "certificate_hash": "9d48a31a71748e81ed64db6fabd973d3a959d5d2"
+          }
+        },
+        {
+          "client_id": "136541813765-c8oak2kctto01u8o94u6d29mqoe0mg66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYMGN1AMa8BX8bLo-m4mmtB1-Vyo-xS18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136541813765-c8oak2kctto01u8o94u6d29mqoe0mg66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

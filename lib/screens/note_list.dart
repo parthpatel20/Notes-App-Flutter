@@ -220,7 +220,9 @@ class _NoteListState extends State<NoteList> {
                       color: Colors.grey,
                     ),
                   )
-                : (isGrid) ? renderGridView() : renderListView()),
+                : (isGrid)
+                    ? renderGridView()
+                    : renderListView()),
         floatingActionButtonLocation: FloatingActionButtonLocation.miniEndFloat,
         floatingActionButton: FloatingActionButton(
           foregroundColor: Colors.black,
@@ -263,14 +265,12 @@ class _NoteListState extends State<NoteList> {
           },
           showUnselectedLabels: true,
           items: [
+            BottomNavigationBarItem(icon: Icon(Icons.view_list), label: "All"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.view_list), title: Text("All")),
+                icon: Icon(Icons.arrow_upward), label: "High"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.arrow_upward), title: Text("High")),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.arrow_downward), title: Text("Low")),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.star), title: Text("Important"))
+                icon: Icon(Icons.arrow_downward), label: "Low"),
+            BottomNavigationBarItem(icon: Icon(Icons.star), label: "Important")
           ],
         ));
   }
